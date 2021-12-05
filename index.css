@@ -1,0 +1,20 @@
+.results {
+  height: 30px;
+  position: relative;
+}
+.results h3 {
+  margin: 0;
+  transition: 300ms ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hidden {
+  opacity: 0;
+}
+.matched {
+  opacity: 0.7;
+}
+.names h2 {
+  transition: 300ms ease;
+}
