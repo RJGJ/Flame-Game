@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.css">
-  <title>flame-game</title>
-</head>
-<body>
-	<h1>FLAME</h1>
-	<div class="results">
-	  <h3 class="f hidden">Friendship</h3>
-	  <h3 class="l hidden">Love</h3>
-	  <h3 class="a hidden">Affection</h3>
-	  <h3 class="m hidden">Marriage</h3>
-	  <h3 class="e hidden">Enemies</h3>
-	</div>
-	<form id="inputs">
-	  <div>
-	    <input type="text" id="name1" name="name1" placeholder="First Name" />
-	  </div>
-	  <div>
-	    <input type="text" id="name2" name="name2" placeholder="Second name" />
-	  </div>
-	</form>
-	<div class="names">
-	  <h2 id="name1-display" data-value="">1</h2>
-	  <h2 id="name2-display" data-value="">x</h2>
-	</div>
-	<p id="debug"></p>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="js/index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>flame-game</title>
+  </head>
+  <body>
+    <h1>FLAME</h1>
+    <div class="results">
+      <h3 class="f hidden">Friendship</h3>
+      <h3 class="l hidden">Love</h3>
+      <h3 class="a hidden">Affection</h3>
+      <h3 class="m hidden">Marriage</h3>
+      <h3 class="e hidden">Enemies</h3>
+    </div>
+    <form id="inputs">
+      <div>
+        <input type="text" id="name1" name="name1" placeholder="First Name" />
+      </div>
+      <div>
+        <input type="text" id="name2" name="name2" placeholder="Second name" />
+      </div>
+    </form>
+    <div class="names">
+      <h2 id="name1-display" data-value=""></h2>
+      <h2 id="name2-display" data-value=""></h2>
+    </div>
+    <p id="debug"></p>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
 </html>

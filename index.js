@@ -50,12 +50,12 @@ const updateResult = () => {
       }
     });
     
-  $('#debug').text(JSON.stringify(countRecords));
+  // $('#debug').text(JSON.stringify(countRecords));
   
   const resultIdx = Object
-    .entries(countRecords)
-    .filter(([letter, count]) => count <= 1)
-    .length % 5 - 1;
+    .entries(countRecords) //
+    .filter(([_, count]) => count <= 1) //
+    .length % 5 - 1; //
 
   
   $('.results h3').each((idx, item) => {
